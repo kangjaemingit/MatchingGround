@@ -776,7 +776,7 @@ app.post("/findteam/applybutton", (req,res)=>{
 
 
 
-// 매치리스트 불러오기
+// 매치리스트 불러오기 /
 app.post("/matchlist", (req, res) =>{
   const r_date = req.body.r_date;
   const r_time = req.body.r_time;
