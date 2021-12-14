@@ -8,7 +8,7 @@ const multer = require('multer');
 const form_data = multer();
 
 var connection = mysql.createConnection({
-    host : "smartit-16.iptime.org",
+    host : "localhost",
     user : "root", //mysql의 id
     password : "smartit16", //mysql의 password
     database : "matchingground", //사용할 데이터베이스
